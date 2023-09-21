@@ -8,8 +8,6 @@ Run the app:
 ```shell
 npm start
 ```
-## Live Hosting at Render
-[Click here to open the live demo](https://react-grocery-app.onrender.com)
 
 ## Libraries used
 ```shell
