@@ -1,0 +1,48 @@
+.button {
+  display: inline-block;
+  height: auto;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  overflow: hidden;
+  &__select {
+    color: var(--lightGreen);
+    font-family: Poppins;
+    padding: 1rem;
+    border: none;
+    background-color: var(--grey);
+    width: 150px;
+    cursor: pointer;
+  }
+}
+.button--primary {
+  background-color: var(--darkGreen);
+  color: var(--white);
+  padding: 1rem 2rem;
+  &:hover {
+    background-color: var(--mediumGreen);
+  }
+}
+.button--secondary {
+  background-color: var(--darkGrey);
+  color: var(--mediumGreen);
+  padding: 1rem 2rem;
+  &:hover {
+    background-color: var(--grey);
+  }
+}
+.button--circle {
+  background-color: var(--mediumGreen);
+  color: var(--white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  &:hover {
+    background-color: var(--darkGreen);
+  }
+}

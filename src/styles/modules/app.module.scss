@@ -1,0 +1,49 @@
+@import "../_mixins.scss";
+
+.app_wrapper {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--darkGreen);
+  @include smallDeviceSize {
+    font-size: 3rem;
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.content_wrapper {
+  background-color: var(--mediumGrey);
+  padding: 2rem;
+  border-radius: 12px;
+  @include smallDeviceSize {
+    padding: 1.5rem;
+  }
+}
+.emptyText {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--lightGreen);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--grey);
+  width: max-content;
+  height: auto;
+}
