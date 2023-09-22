@@ -24,17 +24,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "wesbos"
-    ],
-    "rules": {
-      "import/no-extraneous-dependencies": [
-        "error",
-        {
-          "devDependencies": true
-        }
-      ],
-      "react/prop-types": 0
-    }
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
@@ -47,9 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-config-wesbos": "^3.0.2"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
